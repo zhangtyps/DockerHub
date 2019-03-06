@@ -1,5 +1,5 @@
 # Version: 0.0.1　
-FROM zhangtyps/mycentos:h1
+FROM docker.io/centos
 MAINTAINER Tianyu Zhang "zhangtyps@vip.qq.com"
 ENV REFRESH_AT 20190306
 RUN yum install epel-release -y && yum install -y nginx
